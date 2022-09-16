@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>HOPITAL</title>
+</head>
+<body>
+    <h3>LISTE DES PATIENTS</h3>
+        <table>
+            <thead>
+               <tr>
+                   <th>ID</th><th>Nom</th><th>Date</th><th>Malade</th><th>Score</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr  th:each="p:${}">
+               </tr>
+            </tbody>
+        </table>
+</body>
+</html>
